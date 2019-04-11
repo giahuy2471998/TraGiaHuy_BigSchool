@@ -24,6 +24,7 @@ namespace BigSchool.ViewModels
         [Required]
         public byte Category { get; set; }
         public IEnumerable<Category> Categories { get; set; }
+        /// </summary>
 
         public string Heading { get; set; }
         public string Action
